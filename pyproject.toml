@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-webcollect = "web_email_collector.cli:app"
+webcollect = "cli:app"
 
 [tool.hatch.build.targets.wheel]
 packages = ["web_email_collector"]
